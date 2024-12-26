@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+}
+
+body{
+    background-color:lightgrey;
+}
+ ul{
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+    background-color: red;
+    background-image: url('bayern.png');
+ 
+   
+}
+ li {
+    float: left;
+}
+
+ li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+ }
+
+ li a:hover{
+    background-color: gray;
+    color: white;
+ }
+
+ .News img{
+    margin-top:10px;
+    width: 500px;
+    height: 300px;
+    margin-left: 95px;
+ }
+
+ .News p{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px;
+ }
+ .News #first{
+    margin-left: 120px;
+ }
+  .News #second{
+    margin-top: -85px;
+   padding-left: 730px;
+ }
+  .News #third{
+    margin-left: 1330px;
+    margin-top: -85px;
+ }
+ .News #trophies{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 1892px;
+    height: 350px;
+ }
+ .videot img{
+   
+    width: 750px;
+    height: 400px;
+    margin-left: 590px;
+    margin-top: 10px;
+ }
+ .videot h1,#videot{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    color: darkred;
+ }
+ footer {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    width: 100%;
+}
+
+footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+#aboutus{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 500px;
+    width: 800px;
+
+}
+
+#main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 500px;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+}
+
+
+
+
+.wiki  img{
+    float: right;
+    margin-right:300px;
+    margin-top:-450px ;
+    width: 300px;
+    height: 150px;
+    
+}
+
+.wiki h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    float: right;
+    margin-top: -500px;
+    margin-right: 290px;
+    border: 1px solid black;
+}
+
+.wiki p{
+    float: right;
+    margin-top:-450px;
+    margin-right:130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#early{
+    float:left;
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 390px;
+    height: 250px;
+}
+
+#earlyp{
+    width: 500px;
+    margin-top: -240px;
+    margin-right:500px;
+}
+
+ #kit1{
+    margin-top:-600px;
+    margin-left:1200px;
+    width:150px;
+    height: 150px;
+}
+.history img{
+    float: left;
+    margin-left: 10px;
+    width: 250px;
+    height:200px;
+}
+#logo{
+   margin-top:-900px;
+}
+#logo1{
+    margin-top:-600px;
+}
+#logo2{
+    margin-top:-300px;
+}
+
+
+#live{
+    width: 400px;
+    height: 250px;
+    margin-left: 750px;
+}
+.fits h1{
+    color: white;
+}
+.fits #chat{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fits #welcome{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fit1{
+    background-image: url('background.png');
+    margin-top: 50px;
+    border: 4px solid black;
+    width: 500px;
+    margin-left: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.fit1 img {
+    width: 280px;
+    height:300px;
+}
+.fit1 h1{
+    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+.fit1 button{
+   
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+
+}
+
+.fit1 #button1{
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.fit1 button:hover{
+    background-color: red;
+}
+
+.fit2{
+    background-image: url('background.png');
+    margin-top: -460px;
+    border: 4px solid black;
+    width: 500px;
+    margin-left: 700px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+}
+.fit2 img {
+    width: 280px;
+    height:300px;
+}
+.fit2 h1, p{
+    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+.fit2 button{
+   
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+
+}
+
+.fit2 #button1{
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.fit2 button:hover{
+    background-color: red;
+}
+
+
+.fit3{
+    background-image: url('background.png');
+    margin-top: -460px;
+    border: 4px solid black;
+    width: 500px;
+    margin-left:1300px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.fit3 img {
+    width: 280px;
+    height:300px;
+}
+.fit3 h1, p{
+    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+.fit3 button{
+   
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.fit3 #button1{
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.fit3 button:hover{
+    background-color: red;
+}
+
+
+.fit4{
+    background-image: url('background.png');
+    margin-top: 15px;
+    border: 4px solid black;
+    width: 500px;
+    margin-left:100px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+   
+}
+
+.fit4 img {
+    width: 280px;
+    height:300px;
+}
+.fit4 h1, p{    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+.fit4 button{
+   
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.fit4 #button1{
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.fit4 button:hover{
+    background-color: red;
+}
+
+.fit5{
+    background-image: url('background.png');
+    margin-top: -460px;
+    border: 4px solid black;
+    width: 500px;
+    margin-left:700px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+  
+}
+
+.fit5 img {
+    width: 280px;
+    height:300px;
+}
+.fit5 h1, p{
+    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+.fit5 button{
+   
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    margin-top: 3px;    
+    border-radius: 5px;
+}
+
+.fit5 #button1{
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.fit5 button:hover{
+    background-color: red;
+}
+
+.fit6{
+    background-image: url('background.png');
+    margin-top: -460px;
+    border: 4px solid black;
+    width: 500px;
+    margin-left:1300px;
+    text-align: center;
+    padding: 10px;
+    border-radius:10px;
+   
+}
+
+.fit6 img {
+    width: 300px;
+    height:300px;
+}
+.fit6 h1, p{
+    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+
+.fit6 button{
+   
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.fit6 #button1{
+    padding:3px;
+    border-color: darkred;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.fit6 button:hover{
+    background-color: red;
+}
+
+#titulli{
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:darkred ;
+   
+}
+.Bundesliga img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+#solo{
+    width: 270px;
+    height: 200px;
+    margin-top: -120px;
+    margin-left: 810px;
+}
+
+.tabela{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+
+.tabela tr,th,td{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+    width: 300px;
+    height: 10px;
+    border: 2px solid black;
+}
+.tabela th{
+    color: red;
+}
+.tabela #small{
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+    margin-top:5px ;
+}
